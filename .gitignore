@@ -102,3 +102,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#large downloads/misc
+Banana_Linux.zip
+old_readme.md
