@@ -41,28 +41,3 @@ Benchmark different algorithms like vanilla PPO and actor-critic algorithms like
 
 [OpenAI has a blog post](https://blog.openai.com/better-exploration-with-parameter-noise/) showing that adding noise to the parameters instead of the resulting action. I would like to implement the change and benchmark the performance to see what difference it makes in this environment.
 
-
-### Learning Algorithm
-
-The four action vectors in this environment (corresponding to the torque applicable to the two joints) are **continuous values between -1 and 1.**
-
-For the continuous action space, the learning algorithm I used is **DDPG - the Deep Deterministic Policy Gradient Algorithm**. This algorithm is similar to Deep-Q Network in that there is a target network that is guiding training the policy. However, DDPG being a policy-based method, the algorithm search directly for the optimal policy without simultaneously maintaining a value function estimate needing a discrete action space.
-
-
-Explain here the hyperparameters
-
-Describe the model architectures for the neural networks.
-
-### Plot of Rewards
-Episode 100	Average Score: 25.03  
-Episode 114	Average Score: 30.04  
-Environment solved in 114 episodes!	Average Score: 30.04  
-
-![Plot of Rewards](plot_of_rewards.png)
-
-### Ideas for Future Work
-Benchmark different algorithms like vanilla PPO and actor-critic algorithms like A3C, A2C, GAE.
-
-![action vs parameter noise](action_vs_parameter_noise.png)
-
-[OpenAI has a blog post](https://blog.openai.com/better-exploration-with-parameter-noise/) showing that adding noise to the parameters instead of the resulting action. I would like to implement the change and benchmark the performance to see what difference it makes in this environment.
