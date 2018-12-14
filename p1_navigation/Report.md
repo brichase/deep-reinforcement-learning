@@ -31,7 +31,7 @@ Episode 100	Average Score: 3.76
 Episode 200	Average Score: 7.24  
 Episode 300	Average Score: 12.46  
 Episode 310	Average Score: 13.04  
-**Environment solved in 310 episodes!**	Average Score: 13.04
+**Environment solved in 310 episodes!**	Average Score: 13.04  
 ![Image of chart](assets/Report-96a18.png)
 
 ### Ideas for Future Work
